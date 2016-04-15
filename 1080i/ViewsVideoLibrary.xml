@@ -2693,7 +2693,7 @@
 					<selectedcolor>white</selectedcolor>
 					<align>left</align>
 					<aligny>center</aligny>
-					<label>$INFO[ListItem.Year]$INFO[ListItem.Duration, • , $LOCALIZE[31063]]$INFO[ListItem.Genre, • ,]</label>
+					<label>$INFO[ListItem.Year]$INFO[ListItem.Duration, • , $LOCALIZE[31063]]$INFO[ListItem.Rating, • ,]$INFO[ListItem.Mpaa, • ,]$INFO[ListItem.Genre, • ,]</label>
 					<visible>!Container.Content(Seasons)</visible>
 				</control>
 				
